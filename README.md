@@ -1,12 +1,14 @@
-# Smart Event Recommendation System
+## How to Run
 
-## Run
 docker-compose up --build
 
 ## Seed Data
-node seed/seed.js
 
-## Endpoints
+node app/seed/seed.js
+node app/seed/neo4jSeed.js
+
+## API Endpoints
+
 - /events/trending
 - /events/interest
 - /events/friends/u1
